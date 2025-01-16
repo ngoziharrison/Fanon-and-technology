@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ngozi-obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>ngozi-obsidian</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 16 Jan 2025 21:10:24 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 16 Jan 2025 21:10:22 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Fanon and Technology]]></title><description><![CDATA[ 
+ Fanon and Machine LearningFanon and SurveillanceKey TextsFanon and ComputationThe Black Technical ObjectDark Matters<img src="/lib/media/pasted-image-20250116123835.png" draggable="false">Pasted image 20250116123835.png<br><br><br>Analysis of the colonial situation<br>Epidermalization<img src="/lib/media/pasted-image-20250116123758.png" draggable="false">Pasted image 20250116123758.png<br>Sociogeny<br>2024-08-07 08:28<br>
+Notes from <a data-tooltip-position="top" aria-label="https://www.youtube.com/playlist?list=PLhqug0UEsC-IDomfNsn8e3neoy34o8oye" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/playlist?list=PLhqug0UEsC-IDomfNsn8e3neoy34o8oye" target="_blank">theory of computation video playlist </a><br>
+<br> Write up about the theory of computation and how it connects to logic and the problems of mathematics | <a href=".?query=tag:todo" class="tag" target="_blank" rel="noopener nofollow">#todo</a> <a href=".?query=tag:upcoming" class="tag" target="_blank" rel="noopener nofollow">#upcoming</a>
+<br><br>
+<br>
+<br><a data-href="history of theory of computation" href="/thoughts/history-of-theory-of-computation.html" class="internal-link" target="_self" rel="noopener nofollow">history of theory of computation</a>
+<br><a class="internal-link" data-href="computable functions.md" href="/thoughts/computable-functions.html" target="_self" rel="noopener nofollow">computable functions</a>
+<br><a data-href="church-turing thesis" href="/thoughts/church-turing-thesis.html" class="internal-link" target="_self" rel="noopener nofollow">church-turing thesis</a>
+<br><a data-href="Models of computation" href="/thoughts/models-of-computation.html" class="internal-link" target="_self" rel="noopener nofollow">Models of computation</a>
+
+<br>register machines
+<br>recursive functions
+<br>Turing machine
+
+
+<br><br>
+<br>Computer science is fundamentally about problem solving and building general theories of the capabilities and limitations of computing. The theory of computation seeks to formalize what is solvable by computers. 
+<br>Models of computation<br>
+- In theory of computation you can mathematically prove whether a problem can or cannot be solved using models of computation. Models of computation are formal abstract representation of a machine that takes in an input and computes an output.<br>
+- A <a data-href="turing machine" href="/thoughts/turing-machine.html" class="internal-link" target="_self" rel="noopener nofollow">turing machine</a> is one example model of computation developed by <a data-href="alan turing" href="/thoughts/alan-turing.html" class="internal-link" target="_self" rel="noopener nofollow">alan turing</a><br>
+<a data-href="The halting problem" href="/thoughts/the-halting-problem.html" class="internal-link" target="_self" rel="noopener nofollow">The halting problem</a> is one example of a problem that theory of computation deals with
+<br><br>
+<br>Two fundamental concepts in theory of computation are string and a language
+<br>Definition: String
+
+<br>A string is any sequence of symbols
+
+
+<br>Definition: Language
+
+<br>A language is a set of strings
+
+
+<br>We can perform operations on languages 
+
+<br>Union
+<br>Intersection
+<br>Concatenation
+<br>Kleene star 
+
+
+<br><br><img src="/lib/media/pasted-image-20240827131134.png"><br>
+Finite State machine is the simplest computational model<br>
+DFAs are 5-tuples that can be visualized with state diagrams<br>
+<br>Also called a finite state automata 
+<br>Called deterministic because the next state is always determined by input and the transition function
+<br>Formally defined as <br>
+- Q is the set of states<br>
+-  is the alphabet<br>
+-  is the transition function<br>
+-  is the start state<br>
+- F is the set of accept/final states<br>
+Language  is the set of all accepted strings, strings that result in reaching the accepted state<br>
+A language is a regular language if it is recognized by some finite state automata 
+<br><br>
+<br>Another kind of automaton, called non-deterministic because for every symbol in the input the next state is not always determined. 
+<br>NFA accepts a string if there is at least one path to an accept state
+<br>NFAs can also transition on the empty string  . In this case no input symbol is consumed
+<br>Also defined using 5-tuples  
+<br> 
+<br>any language recognized by a NFA is a regular language, thus any language recognized by a DFA can be recognized by a DFA
+<br>NFAs tend to be constructed more simply
+<br>produces several possible states instead of a single state
+<br><br>
+<br>In addition to regular languages and operation s we can define regular operations
+<br>Regular operations is another way of classifying the operations  
+<br>For all regular operations the resulting language is still a regular operation. The class of regular languages is closed under the operations
+<br>Meaning we can always construct a Finite automaton for the resulting languages
+<br>Significance Given some alphabet and a small set of languages over the alphabet by applying the three regular operations we will be able to generate all the regular languages possible over that alphabet
+<br><br>
+<br>we can encode functions that take some input and produce some output as a relation that takes in three inputs the inputs to the previous function that and the proposed output that is true 
+<br>
+<br><br>theory of computationhttps://socialtextjournal.org/periscope_article/recursive-colonialism-and-cosmo-computation/<br>Recursion<br>aristotelian Logic<br>Decolonization as a historical process<br>Alienation is one of the core concepts in Fanon's work and describes the sense of psychic <br><img src="/lib/media/pasted-image-20250116125328.png" draggable="false">Pasted image 20250116125328.png<br><br><br><br>This mind map is an exploration of the fanon's theory, method, and critique as a generative tool for analysing technology, computation, and information. Recent scholarship at this particular intersection is explored and connected back to core concepts in his work.<br>in a number of places in fanon’s work he uses ideas that emphasize the binary nature of the logics of colonialism<br>the colonized world is a manichean  world. <a class="internal-link" data-href="../Reference Notes/Marriott, D. (2018). Whither Fanon? Studies in the Blackness of Being..md" href="/reference-notes/marriott,-d.-(2018).-whither-fanon?-studies-in-the-blackness-of-being..md" target="_self" rel="noopener nofollow">Marriott, D. (2018). Whither Fanon? Studies in the Blackness of Being.</a> Marriott talks a lot about the manichean in his book<br>he talks about the native sector as confronting the european sector governed by a purely aristotilian logic based upon mutual exclusion i.e. the law of excluded middlemanichean logic in fanon<img src="/lib/media/pasted-image-20250116122245.png" draggable="false">Pasted image 20250116122245.png<img src="/lib/media/pasted-image-20250116123957.png" draggable="false">Pasted image 20250116123957.png<br><br>Amaro's recent monograph, The Black Technical Object represents one of the most recent and comprehensive meditations on the intersection of Blackness, Machine Learning, and Artificial Intelligence. Amaro sets the scene and takes up the discussion of our modern Western neurosis and obsession with data as an expression of aspirational hegemonic ideal and reification and concretization of the logics of categorization. Under assumptions of race and the logics of categorization Blackness is an object ready for analysis, consumption, and algorithmic reassembly through the white imaginary. This is present in the historical legacy and ideological/metaphysical presuppositions of machine learning. He performs this analysis by investigating the historical context and evolution of machine learning from mathematics, specifically probability and statistics, alongside a philosophical critique and psychoanalytic approach to our algorithmically driven age.<br><br><br><br>The Black technical object can be thought of as the convergence of Black pathology and the technical object. In this work Amaro leverages critical technology studies, philosophy, mathematics, and black radical thought to critique the expression of machine learning an artificial intelligence to understand what happens with Blackness enters the computational milieublack technical objecthttps://www.e-flux.com/architecture/becoming-digital/248073/as-if/<br><br>Hui argues that both in metaphysics and computation there is a lack of understanding of objects relationally because of an over reliance on substance that is inherited from Aristotelian ontology. In This book, Hui creates a conversation between Heidegger and Simondon to understand digital objects in themselves as well as the digital mileu in which they take their form. Borrowing from Floridi <a data-href="floridi-level-of-abstraction" href="/thoughts/floridi-level-of-abstraction.html" class="internal-link" target="_self" rel="noopener nofollow">floridi-level-of-abstraction</a> Hui constructs a form ground relation between ontology and ontologies. Digital objects need to be understood in terms of there structures concretized with digital representations, but also as relational objects. In addition Hui develops his mentor stiglier's idea of tiertiary rentetion to develo a kind of tiertiary protention. <br>]]></description><link>mind-maps/fanon-and-technology.html</link><guid isPermaLink="false">Mind Maps/Fanon and Technology.canvas</guid><pubDate>Thu, 16 Jan 2025 21:09:29 GMT</pubDate><enclosure url="lib/media/pasted-image-20250116123835.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20250116123835.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
